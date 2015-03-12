@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/controllers/AccountController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/BaseController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/NewsController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/PageController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/filters.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layouts/editor/editor.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layouts/master.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layouts/news/list.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layouts/news/show.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layouts/pages/page.blade.php" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

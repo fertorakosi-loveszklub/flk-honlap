@@ -20,7 +20,7 @@ class News extends Eloquent {
 
     public static function urlFriendlify($string) {
         // Normalize first
-        $string = urlNormalize($string);
+        $string = News::urlNormalize($string);
         
         // Spaces
         $string = preg_replace('/\\s+/', '-', $string);

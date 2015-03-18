@@ -19,13 +19,16 @@ class News extends Eloquent {
     }
 
     public static function urlFriendlify($string) {
+        // Normalize first
+        $string = urlNormalize($string);
+        
         // Spaces
         $string = preg_replace('/\\s+/', '-', $string);
 
         // Umlauts and such
         setlocale(LC_CTYPE, 'en_US.UTF-8');
         $string = iconv("utf-8","ASCII//TRANSLIT", $string);
-
+        
         // Ignore everything else
         $string = preg_replace("/[^a-zA-Z0-9\-]/", '', $string);
 
